@@ -1,0 +1,47 @@
+.card-deck, .pokepage {
+    margin-top: 4.5rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+}
+
+.card-link {
+    color: #9351c8;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-loadmore {
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
+}
+
+.btn-loadmore:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc
+}
+
+.btn-loadmore:focus {
+    outline: none;
+}
+
+button:disabled,
+button[disabled] {
+    opacity: 10%;
+    transition: opacity 0.3s, visibility 0s linear 0.3s;
+    border: none;
+}
