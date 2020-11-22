@@ -2,7 +2,7 @@
 Required preinstalled json-server.
 Start server by typing **`json-server --watch db.json --port 3001`** in project folder with db.json.
 
-**Important**  
+### Important
 App works only with server located on port 3001. Also don't forget to install requiered dependencies with **`npm install`**
 
 To start the app, with running server and installed all dependencies type in terminal **`npm start`**
